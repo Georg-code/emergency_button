@@ -1,0 +1,24 @@
+{
+  "name": "emergency_button",
+  "version": "1.0.0",
+  "description": "Python script for my emergency button to tun off my lights. It doesn't work like a real emergency button but is a nice gimmick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georg-code/emergency_button.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georg-code/emergency_button/issues"
+  },
+  "homepage": "https://github.com/Georg-code/emergency_button#readme",
+  "dependencies": {
+    "node-tradfri-client": "^3.1.1",
+    "onoff": "^6.0.3",
+    "rpi-gpio": "^2.1.7"
+  }
+}
